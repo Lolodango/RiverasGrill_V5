@@ -1,0 +1,40 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org"> 
+    <head th:replace="~{layout/plantilla :: head}">
+        <title>RiverasGrill</title>
+    </head>
+    <body>     
+        <header th:replace="~{layout/plantilla :: header}" />
+        <div class="container mt-4">
+            <div class="container mt-5">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6">
+                        <div class="card contact-card">
+                            <div class="card-body">
+                                <h2 class="card-title">Información de Contacto</h2>
+                                <p class="card-text"><i class="fas fa-phone-alt contact-icons"></i> 6084-0681</p>
+                                <p class="card-text"><i class="fas fa-envelope contact-icons"></i> contacto@riverasgrillcr.com</p>
+                                <div class="d-flex justify-content-around mt-3">
+                                    <a href="https://www.facebook.com/profile.php?id=100088403594532" class="btn btn-primary">
+                                        <i class="fab fa-facebook-f"></i> Facebook
+                                    </a>
+                                    <a href="https://www.instagram.com/riverasgrillcr/" class="btn btn-danger">
+                                        <i class="fab fa-instagram"></i> Instagram
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card contact-card">
+                            <div class="card-body d-flex justify-content-center align-items-center">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62859.26765653552!2d-84.22715543984371!3d10.041247547894999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa0f99227074aeb%3A0xe729b0805f7c0d98!2sRivera&#39;s%20Grill%20%26%20Mexican%20Food!5e0!3m2!1ses-419!2scr!4v1722895082315!5m2!1ses-419!2scr" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </div>
+
+        <footer th:replace="~{layout/plantilla :: footer}" />
+
+    </body>
+</html>
